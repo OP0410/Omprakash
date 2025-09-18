@@ -1,15 +1,18 @@
+
 server:
   port: 8081
-
 spring:
   application:
     name: Ompra
   datasource:
-    url: jdbc:mysql://localhost:3306/spr240
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://dpg-d35v26vfte5s7399pue0-a.oregon-postgres.render.com:5432/ompra
+    username: ompra_user
+    password: Nh49fsJ6jU1rTtrz3NpELnhS6kdw6G98
+    driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
