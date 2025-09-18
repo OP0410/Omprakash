@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Ompra
+  datasource:
+    url: jdbc:mysql://localhost:3306/spr240
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
