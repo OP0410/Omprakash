@@ -5,9 +5,9 @@ spring:
   application:
     name: Ompra
   datasource:
-    url: jdbc:postgresql://dpg-d35v26vfte5s7399pue0-a.oregon-postgres.render.com:5432/ompra
-    username: ompra_user
-    password: Nh49fsJ6jU1rTtrz3NpELnhS6kdw6G98
+    url: jdbc:postgresql://dpg-d36h6m0gjchc73cajkkg-a.oregon-postgres.render.com:5432/ompra_39sq
+    username: ompra_39sq_user
+    password: ZxgE3890M9VmsTFge4H95GwBWyVCkLnF
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
